@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answerA</key>
+		<string>引用头文件的方式</string>
+		<key>answerB</key>
+		<string>用extern关键字</string>
+		<key>answerC</key>
+		<string>可以用头文件也可以用extern关键字</string>
+		<key>answerD</key>
+		<string>#define声明</string>
+		<key>rigthAnswer</key>
+		<string>C</string>
+		<key>question</key>
+		<string>如何引用一个其他文件已经定义过的全局变量？</string>
+		<key>number</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>int a、(int *)a</string>
+		<key>answerB</key>
+		<string>char a、char **a</string>
+		<key>answerC</key>
+		<string>int a、int **a</string>
+		<key>answerD</key>
+		<string>char a、(char *)a</string>
+		<key>rigthAnswer</key>
+		<string>C</string>
+		<key>question</key>
+		<string>用变量a给出下面的定义：a)	一个整形数 b)	一个指向整形的指针</string>
+		<key>number</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>(int *) a[10];</string>
+		<key>answerB</key>
+		<string>int (* a)[10];</string>
+		<key>answerC</key>
+		<string>int a *[10];</string>
+		<key>answerD</key>
+		<string>int (*a)[10];</string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>用变量a给出下面定义：一个有10个指针的数组，每个指针指针指向一个整形数</string>
+		<key>number</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>(int *) a[10];</string>
+		<key>answerB</key>
+		<string>int (* a)[10];</string>
+		<key>answerC</key>
+		<string>int a *[10];</string>
+		<key>answerD</key>
+		<string>int [10](*a);</string>
+		<key>rigthAnswer</key>
+		<string>B</string>
+		<key>question</key>
+		<string>用变量a给出下面定义:一个指向有10个整形数数组的指针</string>
+		<key>number</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>int a (int *);</string>
+		<key>answerB</key>
+		<string>int (int*)a;</string>
+		<key>answerC</key>
+		<string>(int *) int a;</string>
+		<key>answerD</key>
+		<string>int*a(int);</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>用变量a给出下面定义:一个指向函数的指针，该函数有一个整形参数，并返回一个整形数</string>
+		<key>number</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>(int *)int a[10]</string>
+		<key>answerB</key>
+		<string>int a[10](int *);</string>
+		<key>answerC</key>
+		<string>int  *(a[10])(int);</string>
+		<key>answerD</key>
+		<string>int  (*a)[10](int);</string>
+		<key>rigthAnswer</key>
+		<string>C</string>
+		<key>question</key>
+		<string>用变量a给下面定义:一个有10个指针的数组，每个指针指向一个函数，该函数有一个整形参数并返回一个整形数</string>
+		<key>number</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>函数体内：声明周期为整个程序，作用域在函数体</string>
+		<key>answerB</key>
+		<string>在文件模块内（但在函数体外），一个被声明为静态的全局变量可以被模块内所有函数访问，但不能被模块外其它函数访问。它是一个本地的全局变量。限制静态全局变量的作用域。</string>
+		<key>answerC</key>
+		<string>在文件模块内，一个被声明为静态的函数只可被这一模块内的其它函数调用。那就是，这个函数被限制在声明它的模块的本地范围内使用。函数默认情况下是全局函数，可以被任意其它文件模块调用。</string>
+		<key>answerD</key>
+		<string>以上全部</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>关键字static在c语言中的作用？</string>
+		<key>number</key>
+		<integer>7</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>extern声明的函数成为外部函数</string>
+		<key>answerB</key>
+		<string>extern声明变量成为外部变量</string>
+		<key>answerC</key>
+		<string>extern声明的函数或变量成为外部函数或外部变量</string>
+		<key>answerD</key>
+		<string>extern声明函数成为全局变量</string>
+		<key>rigthAnswer</key>
+		<string>C</string>
+		<key>question</key>
+		<string>关键字extern在c语言中的作用</string>
+		<key>number</key>
+		<integer>8</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>a不变，b不变</string>
+		<key>answerB</key>
+		<string>a不变，b的地址不变</string>
+		<key>answerC</key>
+		<string>a的地址不变，b不变</string>
+		<key>answerD</key>
+		<string>a的地址不变，b的地址不变</string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>下面的声明都是什么意思：a)const  int  a; b)int  const  b;</string>
+		<key>number</key>
+		<integer>9</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>a的值不变地址可变</string>
+		<key>answerB</key>
+		<string>a的值不变地址不变</string>
+		<key>answerC</key>
+		<string>a的值可变地址可变</string>
+		<key>answerD</key>
+		<string>a的直可变地址不变</string>
+		<key>rigthAnswer</key>
+		<string>B</string>
+		<key>question</key>
+		<string>const int * const a;</string>
+		<key>number</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>堆区、栈区、静态区</string>
+		<key>answerB</key>
+		<string>堆区、栈区、静态区、代码区</string>
+		<key>answerC</key>
+		<string>堆区、栈区、全局区、常量区</string>
+		<key>answerD</key>
+		<string>堆区、栈区、全局区、代码区、常量区</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>c语言的内存格局分布</string>
+		<key>number</key>
+		<integer>11</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>可以</string>
+		<key>answerB</key>
+		<string>不可以</string>
+		<key>answerC</key>
+		<string></string>
+		<key>answerD</key>
+		<string></string>
+		<key>rigthAnswer</key>
+		<string>B</string>
+		<key>question</key>
+		<string>全局变量可不可以定义在被多个c文件包含的头文件中？</string>
+		<key>number</key>
+		<integer>12</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>24、8</string>
+		<key>answerB</key>
+		<string>32、24</string>
+		<key>answerC</key>
+		<string>32、26</string>
+		<key>answerD</key>
+		<string>24、20</string>
+		<key>rigthAnswer</key>
+		<string>B</string>
+		<key>question</key>
+		<string>求下面结构体的大小？改良后能多大？struct B{char a;long b;float c;double d;char e;}</string>
+		<key>number</key>
+		<integer>13</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>先处理概率大的</string>
+		<key>answerB</key>
+		<string>后处理概率大的</string>
+		<key>answerC</key>
+		<string>先后处理都没区别</string>
+		<key>answerD</key>
+		<string></string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>if else结构中正常情况一般比异常情况发生概率大，是先处理正常情况还是先处理异常情况程序可读性和性能会有所提高</string>
+		<key>number</key>
+		<integer>14</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>10、8</string>
+		<key>answerB</key>
+		<string>5、4</string>
+		<key>answerC</key>
+		<string>6、8</string>
+		<key>answerD</key>
+		<string>10、4</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>char  a[10] = “hello”;
+char  *p = a;
+求：sizeof(a);sizeof(p)
+char a[10]=“hello”; char *p = a;求:sizeof(a);sizeof(p)</string>
+		<key>number</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>大端</string>
+		<key>answerB</key>
+		<string>小端</string>
+		<key>answerC</key>
+		<string></string>
+		<key>answerD</key>
+		<string></string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>nt i = 0xff56; char p = &amp;I; printf(“%x”,p);如果打印出来的是0，处理器的端序为大端还是小端？</string>
+		<key>number</key>
+		<integer>16</integer>
+	</dict>
+</array>
+</plist>

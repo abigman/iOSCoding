@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>07BF1020-2B21-46CD-93CC-930E25E8EA96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90bc358b-9db6-3348-9c55-38c95312d070</key>
+		<string>http://10.25.75.94/svn/qb-group</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/代码/iOS_面试宝典/iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90bc358b-9db6-3348-9c55-38c95312d070</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90bc358b-9db6-3348-9c55-38c95312d070</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90bc358b-9db6-3348-9c55-38c95312d070</string>
+			<key>IDESourceControlWCCName</key>
+			<string>qb-group%20%E4%B8%8A%E5%8D%889.06.52</string>
+		</dict>
+	</array>
+</dict>
+</plist>

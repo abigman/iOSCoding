@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DEMO_C" representedClassName="DEMO_C" syncable="YES">
+        <attribute name="answerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rigthAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEMO_Cpp" representedClassName="DEMO_Cpp" syncable="YES">
+        <attribute name="answerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rigthAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEMO_Linux" representedClassName="DEMO_Linux" syncable="YES">
+        <attribute name="answerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rigthAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEMO_OC" representedClassName="DEMO_OC" syncable="YES">
+        <attribute name="answerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rigthAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DEMO_OS" representedClassName="DEMO_OS" syncable="YES">
+        <attribute name="answerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rigthAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DEMO_Cpp" positionX="-18" positionY="27" width="128" height="148"/>
+        <element name="DEMO_C" positionX="18" positionY="72" width="128" height="148"/>
+        <element name="DEMO_OC" positionX="27" positionY="108" width="128" height="148"/>
+        <element name="DEMO_OS" positionX="36" positionY="135" width="128" height="148"/>
+        <element name="DEMO_Linux" positionX="45" positionY="162" width="128" height="148"/>
+    </elements>
+</model>

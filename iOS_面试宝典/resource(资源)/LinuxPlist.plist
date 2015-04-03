@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answerA</key>
+		<string>用户可写可执行、用户组可写、其他人可写</string>
+		<key>answerB</key>
+		<string>用户可读可写、用户组可读、其他人可读</string>
+		<key>answerC</key>
+		<string>用户可写可执行、用户组可读、其他人可读</string>
+		<key>answerD</key>
+		<string>用户可写可执行、用户组可执行、其他人可执行</string>
+		<key>rigthAnswer</key>
+		<string>B</string>
+		<key>question</key>
+		<string>某文件权限是drw-r--r--代表什么意思</string>
+		<key>number</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>-l</string>
+		<key>answerB</key>
+		<string>-f</string>
+		<key>answerC</key>
+		<string>-i</string>
+		<key>answerD</key>
+		<string>-r</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>rm命令怎样删除目录</string>
+		<key>number</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>删除文件</string>
+		<key>answerB</key>
+		<string>展示列表</string>
+		<key>answerC</key>
+		<string>移动文件或者改名</string>
+		<key>answerD</key>
+		<string>新建文件</string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>mv命令有什么功能</string>
+		<key>number</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>zip-cxfv filename.tar.gz</string>
+		<key>answerB</key>
+		<string>zip -czfv filename.tar.gz</string>
+		<key>answerC</key>
+		<string>cx-czfv filename.tar.gz</string>
+		<key>answerD</key>
+		<string>tar-czfv filename.tar.gz/tar -zxfv filename.tar.gz</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>linux下压缩文件生成后缀为.gz的文件的命令是</string>
+		<key>number</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>/etc</string>
+		<key>answerB</key>
+		<string>/dev</string>
+		<key>answerC</key>
+		<string>/lib</string>
+		<key>answerD</key>
+		<string>/bin</string>
+		<key>rigthAnswer</key>
+		<string>A</string>
+		<key>question</key>
+		<string>inux中存放配置文件的目录是</string>
+		<key>number</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>road</string>
+		<key>answerB</key>
+		<string>tree</string>
+		<key>answerC</key>
+		<string>pwd</string>
+		<key>answerD</key>
+		<string>ls</string>
+		<key>rigthAnswer</key>
+		<string>C</string>
+		<key>question</key>
+		<string>想知道目前所处的路径使用什么命令</string>
+		<key>number</key>
+		<integer>6</integer>
+	</dict>
+</array>
+</plist>

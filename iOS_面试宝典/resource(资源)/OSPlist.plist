@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answerA</key>
+		<string>通讯</string>
+		<key>answerB</key>
+		<string>调度</string>
+		<key>answerC</key>
+		<string>分派</string>
+		<key>answerD</key>
+		<string>信号量</string>
+		<key>rigthAnswer</key>
+		<string>D</string>
+		<key>question</key>
+		<string>操作系统为了解决进程间合作和资源共享所带来的同步和互斥问题，通常采用的方法是什么</string>
+		<key>number</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>answerA</key>
+		<string>23</string>
+		<key>answerB</key>
+		<string>24</string>
+		<key>answerC</key>
+		<string>25</string>
+		<key>answerD</key>
+		<string>26</string>
+		<key>rigthAnswer</key>
+		<string>25</string>
+		<key>question</key>
+		<string>若在系统中有若干个互斥资源R，6个并发进程，每个进程需要5个资源，那么为了使系统不死锁的资源R最小数为？</string>
+		<key>number</key>
+		<integer>2</integer>
+	</dict>
+</array>
+</plist>
